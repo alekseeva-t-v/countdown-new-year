@@ -1,3 +1,8 @@
+/**
+ * Отображает таймер обратного отсчета до нового года на странице.
+ *
+ * @param {string} lang Язык страницы.
+ */
 function showCountdown(lang) {
   const countdownTitle = document.querySelector('.countdown__title');
   const year = document.querySelector('#year');
@@ -20,6 +25,10 @@ function showCountdown(lang) {
 
   year.innerText = currentYear + 1;
 
+  /**
+   * Устанавливает параметры дней, часов, минут и секунд для заданной даты на странице.
+   *
+   */
   function updateCounter() {
     const currentTime = new Date();
     const diff = nextYear - currentTime;
@@ -30,9 +39,9 @@ function showCountdown(lang) {
     const secondsLeft = Math.floor(diff / 1000) % 60;
 
     days.innerText = daysLeft;
-    hours.innerText = (String(hoursLeft)).padStart(2, '0')
-    minutes.innerText = (String(minutesLeft)).padStart(2, '0')
-    seconds.innerText = (String(secondsLeft)).padStart(2, '0')
+    hours.innerText = String(hoursLeft).padStart(2, '0');
+    minutes.innerText = String(minutesLeft).padStart(2, '0');
+    seconds.innerText = String(secondsLeft).padStart(2, '0');
   }
 
   setInterval(updateCounter, 1000);

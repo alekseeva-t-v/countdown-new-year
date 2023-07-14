@@ -1,5 +1,9 @@
-import { langArr } from "./lang";
+import { langArr } from './lang';
 
+/**
+ * Изменяет язык на странице
+ *
+ */
 function changeLang() {
   let lang = 'en';
   const allLang = ['en', 'ru'];
@@ -8,6 +12,10 @@ function changeLang() {
   const btnLang = document.querySelector('.lang-btn');
   const title = document.querySelector('title');
 
+  /**
+   * Изменяет стилизацию кнопки выбора языка. Прописывает в адрес страницы хэш с указанием языка. Перезагружает страницу. Вызывается при нажатии на кнопку выбора языка
+   *
+   */
   function changeURLLanguageHandler() {
     if (!btnLang.classList.contains('lang-btn--active')) {
       btnLang.classList.add('lang-btn--active');
@@ -21,6 +29,10 @@ function changeLang() {
     location.reload();
   }
 
+  /**
+   * Использует язык, указанный в хэше. При необходимости меняет стилизацию кнопки на соответствующую. Производит перевод заголовка страницы и элементов страницы, помеченных классом `.lng-${...}`
+   *
+   */
   function changeLanguage() {
     let hash = window.location.hash;
     hash = hash.substr(1);

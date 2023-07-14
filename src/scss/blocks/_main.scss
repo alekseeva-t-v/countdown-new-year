@@ -121,7 +121,34 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
+	.year {
+		top: 25%;
+		font-size: 80px;
+	}
+
+	.countdown__title {
+    font-size: 45px;
+  }
+
+	.selection {
+		font-size: 45px;
+	}
+
+	.time h2 {
+    font-size: 32px;
+    margin: 0;
+  }
+
+  .time .desc {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 520px) {
+	.main {
+		background-position: bottom right;
+	}
   .countdown__title {
     font-size: 35px;
   }
