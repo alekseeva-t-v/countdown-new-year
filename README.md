@@ -13,10 +13,12 @@
 * Адаптивная верстка для экранов 320px и выше
 
 ## **Стек технологий**
-![HTML](./public/images/html.svg)
-![CSS](./public/images/css.svg)
-![JS](./public/images/js.svg)
-![GIT](./public/images/git.svg)
+![HTML](./public/images/html-badge.svg)
+![SCSS](./public/images/scss-badge.svg)
+![JS](./public/images/java-script-badge.svg)
+![GIT](./public/images/git-badge.svg)
+![GULP](./public/images/gulp-badge.svg)
+![WEBPACK](./public/images/webpack-badge.svg)
 
 ## [**Демо**](https://alekseeva-t-v.github.io/countdown-new-year/)
 ![demo](./public/images/demo.jpg)

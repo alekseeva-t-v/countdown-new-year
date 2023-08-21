@@ -1,7 +1,11 @@
 export const langArr = {
-  'unit': {
+  'page-main': {
     'ru': 'Новый Год - Обратный отсчет',
     'en': 'New Year - Countdown',
+  },
+  'about-project': {
+    'ru': 'О проекте',
+    'en': 'About the project',
   },
   'progect': {
     'ru': 'Проект',
@@ -15,13 +19,9 @@ export const langArr = {
     'ru': 'Портфолио',
     'en': 'Portfolio',
   },
-  'skills': {
-    'ru': 'Навыки',
-    'en': 'Skills',
-  },
-  'contacts': {
-    'ru': 'Контакты',
-    'en': 'Contacts',
+  'about': {
+    'ru': 'О проекте',
+    'en': 'About the project',
   },
   'title': {
     'ru': 'Контакты',
@@ -47,4 +47,12 @@ export const langArr = {
     'ru': 'секунд',
     'en': 'seconds',
   },
+  'title-project': {
+    'ru': 'Таймер обратного отсчета',
+    'en': 'Countdown timer',
+  },
+  'about-project': {
+    'ru': 'Простой таймер обратного отсчета с днями, часами, минутами и секундами. Отслеживает время до наступления нового года. Обновление происходит каждую секунду. Адаптивная верстка для экранов 320px и выше.',
+    'en': 'A simple countdown timer with days, hours, minutes and seconds. Tracks the time until the new year. The update happens every second. Responsive layout for screens 320px and above.',
+  }
 };

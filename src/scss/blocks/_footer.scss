@@ -1,8 +1,10 @@
 .footer {
 	position: relative;
 	z-index: 10;
-  padding: 5px 0 5px;
-  flex: 0 0 auto;
+
+	flex: 0 0 auto;
+  padding: 10px 0 10px;
+
   background-color: var(--dark-bg);
   border-top: solid 1px var(--dark-border);
 
