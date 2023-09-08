@@ -14,7 +14,7 @@ function showCountdown(lang) {
   const preloader = document.querySelector('#preloader');
 
   const titleHTMLelem =
-    lang === '#ru'
+    lang === 'ru'
       ? `до <span class="selection">Нового Года</span> осталось:`
       : `before the <span class="selection">New Year</span> left:`;
 

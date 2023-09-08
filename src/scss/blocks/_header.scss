@@ -68,7 +68,7 @@
   }
 
   &:after {
-    content: "";
+    content: '';
 
     position: absolute;
     left: 0;
@@ -161,6 +161,14 @@
   position: relative;
 }
 
+.project-about .lang-btn {
+  display: none;
+}
+
+.project-content .light-mode-btn {
+  display: none;
+}
+
 .lang__elem {
   position: relative;
 
@@ -179,8 +187,6 @@
     justify-content: center;
   }
 }
-
-
 
 @media (max-width: 576px) {
   .btn {
